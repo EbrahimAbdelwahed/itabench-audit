@@ -12,7 +12,7 @@ We trained six small Italian language models (~110M parameters) and evaluated th
 
 ARC-Challenge is at chance (25%) for every model up to 350M parameters that we tested.
 
-None of this is a criticism of the people behind ITA-Bench, who made Italian evaluation possible in the first place. The TruthfulQA issue is a one-line fix, and we have reported both points upstream: <ISSUE_URL>.
+None of this is a criticism of the people behind ITA-Bench, who made Italian evaluation possible in the first place. The TruthfulQA issue is a one-line fix, and we have reported both points upstream: [SapienzaNLP/ita-bench#1](https://github.com/SapienzaNLP/ita-bench/issues/1).
 
 ---
 
