@@ -1,0 +1,106 @@
+model_id,model,protocol,task,score
+minerva-350m,Minerva-350M-base (public),official,ARC-C,24.65
+minerva-350m,Minerva-350M-base (public),official,HellaSwag,32.7
+minerva-350m,Minerva-350M-base (public),official,BoolQ,60.66
+minerva-350m,Minerva-350M-base (public),official,TruthfulQA mc1,60.23
+minerva-350m,Minerva-350M-base (public),official,GSM8K-MC,47.99
+minerva-350m,Minerva-350M-base (public),shuffled,ARC-C,24.73
+minerva-350m,Minerva-350M-base (public),shuffled,HellaSwag,32.7
+minerva-350m,Minerva-350M-base (public),shuffled,BoolQ,60.62
+minerva-350m,Minerva-350M-base (public),shuffled,TruthfulQA mc1,30.81
+minerva-350m,Minerva-350M-base (public),shuffled,GSM8K-MC,47.92
+minerva-350m,Minerva-350M-base (public),no_context,ARC-C,26.33
+minerva-350m,Minerva-350M-base (public),no_context,HellaSwag,27.83
+minerva-350m,Minerva-350M-base (public),no_context,BoolQ,37.77
+minerva-350m,Minerva-350M-base (public),no_context,TruthfulQA mc1,27.53
+minerva-350m,Minerva-350M-base (public),no_context,GSM8K-MC,42.15
+e1,it-SML E1: Wikipedia only,official,ARC-C,23.06
+e1,it-SML E1: Wikipedia only,official,HellaSwag,29.3
+e1,it-SML E1: Wikipedia only,official,BoolQ,62.17
+e1,it-SML E1: Wikipedia only,official,TruthfulQA mc1,58.08
+e1,it-SML E1: Wikipedia only,official,GSM8K-MC,47.23
+e1,it-SML E1: Wikipedia only,shuffled,ARC-C,23.23
+e1,it-SML E1: Wikipedia only,shuffled,HellaSwag,29.29
+e1,it-SML E1: Wikipedia only,shuffled,BoolQ,62.15
+e1,it-SML E1: Wikipedia only,shuffled,TruthfulQA mc1,26.64
+e1,it-SML E1: Wikipedia only,shuffled,GSM8K-MC,46.78
+e1,it-SML E1: Wikipedia only,no_context,ARC-C,25.71
+e1,it-SML E1: Wikipedia only,no_context,HellaSwag,25.63
+e1,it-SML E1: Wikipedia only,no_context,BoolQ,37.77
+e1,it-SML E1: Wikipedia only,no_context,TruthfulQA mc1,26.52
+e1,it-SML E1: Wikipedia only,no_context,GSM8K-MC,30.02
+e2,it-SML E2: Wikipedia + 25% Pleias SYNTH-IT,official,ARC-C,23.23
+e2,it-SML E2: Wikipedia + 25% Pleias SYNTH-IT,official,HellaSwag,29.47
+e2,it-SML E2: Wikipedia + 25% Pleias SYNTH-IT,official,BoolQ,51.4
+e2,it-SML E2: Wikipedia + 25% Pleias SYNTH-IT,official,TruthfulQA mc1,59.22
+e2,it-SML E2: Wikipedia + 25% Pleias SYNTH-IT,official,GSM8K-MC,48.67
+e2,it-SML E2: Wikipedia + 25% Pleias SYNTH-IT,shuffled,ARC-C,23.2
+e2,it-SML E2: Wikipedia + 25% Pleias SYNTH-IT,shuffled,HellaSwag,29.47
+e2,it-SML E2: Wikipedia + 25% Pleias SYNTH-IT,shuffled,BoolQ,51.21
+e2,it-SML E2: Wikipedia + 25% Pleias SYNTH-IT,shuffled,TruthfulQA mc1,28.7
+e2,it-SML E2: Wikipedia + 25% Pleias SYNTH-IT,shuffled,GSM8K-MC,47.97
+e2,it-SML E2: Wikipedia + 25% Pleias SYNTH-IT,no_context,ARC-C,25.97
+e2,it-SML E2: Wikipedia + 25% Pleias SYNTH-IT,no_context,HellaSwag,25.32
+e2,it-SML E2: Wikipedia + 25% Pleias SYNTH-IT,no_context,BoolQ,37.77
+e2,it-SML E2: Wikipedia + 25% Pleias SYNTH-IT,no_context,TruthfulQA mc1,28.16
+e2,it-SML E2: Wikipedia + 25% Pleias SYNTH-IT,no_context,GSM8K-MC,30.4
+e4,it-SML E4: synthetic only,official,ARC-C,22.79
+e4,it-SML E4: synthetic only,official,HellaSwag,29.53
+e4,it-SML E4: synthetic only,official,BoolQ,60.85
+e4,it-SML E4: synthetic only,official,TruthfulQA mc1,59.47
+e4,it-SML E4: synthetic only,official,GSM8K-MC,44.28
+e4,it-SML E4: synthetic only,shuffled,ARC-C,22.79
+e4,it-SML E4: synthetic only,shuffled,HellaSwag,29.53
+e4,it-SML E4: synthetic only,shuffled,BoolQ,60.79
+e4,it-SML E4: synthetic only,shuffled,TruthfulQA mc1,29.5
+e4,it-SML E4: synthetic only,shuffled,GSM8K-MC,43.44
+e4,it-SML E4: synthetic only,no_context,ARC-C,27.39
+e4,it-SML E4: synthetic only,no_context,HellaSwag,25.16
+e4,it-SML E4: synthetic only,no_context,BoolQ,62.23
+e4,it-SML E4: synthetic only,no_context,TruthfulQA mc1,28.54
+e4,it-SML E4: synthetic only,no_context,GSM8K-MC,38.21
+e5,it-SML E5: Wikipedia + all synthetic,official,ARC-C,25.0
+e5,it-SML E5: Wikipedia + all synthetic,official,HellaSwag,30.12
+e5,it-SML E5: Wikipedia + all synthetic,official,BoolQ,56.61
+e5,it-SML E5: Wikipedia + all synthetic,official,TruthfulQA mc1,62.25
+e5,it-SML E5: Wikipedia + all synthetic,official,GSM8K-MC,44.43
+e5,it-SML E5: Wikipedia + all synthetic,shuffled,ARC-C,25.09
+e5,it-SML E5: Wikipedia + all synthetic,shuffled,HellaSwag,30.12
+e5,it-SML E5: Wikipedia + all synthetic,shuffled,BoolQ,56.39
+e5,it-SML E5: Wikipedia + all synthetic,shuffled,TruthfulQA mc1,31.61
+e5,it-SML E5: Wikipedia + all synthetic,shuffled,GSM8K-MC,43.34
+e5,it-SML E5: Wikipedia + all synthetic,no_context,ARC-C,26.59
+e5,it-SML E5: Wikipedia + all synthetic,no_context,HellaSwag,25.66
+e5,it-SML E5: Wikipedia + all synthetic,no_context,BoolQ,37.77
+e5,it-SML E5: Wikipedia + all synthetic,no_context,TruthfulQA mc1,27.4
+e5,it-SML E5: Wikipedia + all synthetic,no_context,GSM8K-MC,27.14
+e5_sft,it-SML E5 + SFT v1,official,ARC-C,24.65
+e5_sft,it-SML E5 + SFT v1,official,HellaSwag,30.59
+e5_sft,it-SML E5 + SFT v1,official,BoolQ,60.88
+e5_sft,it-SML E5 + SFT v1,official,TruthfulQA mc1,63.76
+e5_sft,it-SML E5 + SFT v1,official,GSM8K-MC,46.78
+e5_sft,it-SML E5 + SFT v1,shuffled,ARC-C,24.73
+e5_sft,it-SML E5 + SFT v1,shuffled,HellaSwag,30.6
+e5_sft,it-SML E5 + SFT v1,shuffled,BoolQ,60.87
+e5_sft,it-SML E5 + SFT v1,shuffled,TruthfulQA mc1,32.83
+e5_sft,it-SML E5 + SFT v1,shuffled,GSM8K-MC,46.2
+e5_sft,it-SML E5 + SFT v1,no_context,ARC-C,25.18
+e5_sft,it-SML E5 + SFT v1,no_context,HellaSwag,26.3
+e5_sft,it-SML E5 + SFT v1,no_context,BoolQ,37.77
+e5_sft,it-SML E5 + SFT v1,no_context,TruthfulQA mc1,26.89
+e5_sft,it-SML E5 + SFT v1,no_context,GSM8K-MC,21.0
+e5_sft_v2,it-SML E5 + SFT v2 (saw GSM8K train),official,ARC-C,25.18
+e5_sft_v2,it-SML E5 + SFT v2 (saw GSM8K train),official,HellaSwag,30.76
+e5_sft_v2,it-SML E5 + SFT v2 (saw GSM8K train),official,BoolQ,59.5
+e5_sft_v2,it-SML E5 + SFT v2 (saw GSM8K train),official,TruthfulQA mc1,64.02
+e5_sft_v2,it-SML E5 + SFT v2 (saw GSM8K train),official,GSM8K-MC,49.66
+e5_sft_v2,it-SML E5 + SFT v2 (saw GSM8K train),shuffled,ARC-C,25.21
+e5_sft_v2,it-SML E5 + SFT v2 (saw GSM8K train),shuffled,HellaSwag,30.75
+e5_sft_v2,it-SML E5 + SFT v2 (saw GSM8K train),shuffled,BoolQ,59.46
+e5_sft_v2,it-SML E5 + SFT v2 (saw GSM8K train),shuffled,TruthfulQA mc1,32.95
+e5_sft_v2,it-SML E5 + SFT v2 (saw GSM8K train),shuffled,GSM8K-MC,49.46
+e5_sft_v2,it-SML E5 + SFT v2 (saw GSM8K train),no_context,ARC-C,25.88
+e5_sft_v2,it-SML E5 + SFT v2 (saw GSM8K train),no_context,HellaSwag,26.24
+e5_sft_v2,it-SML E5 + SFT v2 (saw GSM8K train),no_context,BoolQ,37.77
+e5_sft_v2,it-SML E5 + SFT v2 (saw GSM8K train),no_context,TruthfulQA mc1,28.28
+e5_sft_v2,it-SML E5 + SFT v2 (saw GSM8K train),no_context,GSM8K-MC,21.83

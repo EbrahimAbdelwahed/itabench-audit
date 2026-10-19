@@ -1,0 +1,81 @@
+{
+  "model": "itsml-e4-synthetic-only",
+  "protocol": "official",
+  "seeds": [
+    -1
+  ],
+  "limit": null,
+  "summary": {
+    "itabench_arc_challenge_it-it": {
+      "acc": 20.23,
+      "acc_std_seed": 0.0,
+      "acc_stderr": 1.19,
+      "acc_norm": 22.79,
+      "acc_norm_std_seed": 0.0,
+      "acc_norm_stderr": 1.25
+    },
+    "itabench_boolq_with_passages_it-it": {
+      "acc": 60.85,
+      "acc_std_seed": 0.0,
+      "acc_stderr": 0.86,
+      "acc_norm": 60.85,
+      "acc_norm_std_seed": 0.0,
+      "acc_norm_stderr": 0.86
+    },
+    "itabench_gsm8k_multichoice_it-it": {
+      "acc": 44.28,
+      "acc_std_seed": 0.0,
+      "acc_stderr": 1.37,
+      "acc_norm": 44.28,
+      "acc_norm_std_seed": 0.0,
+      "acc_norm_stderr": 1.37
+    },
+    "itabench_hellaswag_it-it": {
+      "acc": 27.21,
+      "acc_std_seed": 0.0,
+      "acc_stderr": 0.45,
+      "acc_norm": 29.53,
+      "acc_norm_std_seed": 0.0,
+      "acc_norm_stderr": 0.46
+    },
+    "itabench_truthful_qa_mc1_it-it": {
+      "acc": 59.47,
+      "acc_std_seed": 0.0,
+      "acc_stderr": 1.75
+    }
+  },
+  "per_seed": {
+    "-1": {
+      "itabench_arc_challenge_it-it": {
+        "acc": 20.23,
+        "acc_stderr": 1.19,
+        "acc_norm": 22.79,
+        "acc_norm_stderr": 1.25
+      },
+      "itabench_boolq_with_passages_it-it": {
+        "acc": 60.85,
+        "acc_stderr": 0.86,
+        "acc_norm": 60.85,
+        "acc_norm_stderr": 0.86
+      },
+      "itabench_gsm8k_multichoice_it-it": {
+        "acc": 44.28,
+        "acc_stderr": 1.37,
+        "acc_norm": 44.28,
+        "acc_norm_stderr": 1.37
+      },
+      "itabench_hellaswag_it-it": {
+        "acc": 27.21,
+        "acc_stderr": 0.45,
+        "acc_norm": 29.53,
+        "acc_norm_stderr": 0.46
+      },
+      "itabench_truthful_qa_mc1_it-it": {
+        "acc": 59.47,
+        "acc_stderr": 1.75
+      }
+    }
+  },
+  "seconds": 119,
+  "lm_eval_version": "0.4.8"
+}

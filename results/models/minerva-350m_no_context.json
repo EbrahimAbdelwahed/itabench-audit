@@ -1,0 +1,81 @@
+{
+  "model": "sapienzanlp/Minerva-350M-base-v1.0",
+  "protocol": "no_context",
+  "seeds": [
+    0
+  ],
+  "limit": null,
+  "summary": {
+    "itabench_arc_challenge_it-it": {
+      "acc": 21.02,
+      "acc_std_seed": 0.0,
+      "acc_stderr": 1.21,
+      "acc_norm": 26.33,
+      "acc_norm_std_seed": 0.0,
+      "acc_norm_stderr": 1.31
+    },
+    "itabench_boolq_with_passages_it-it": {
+      "acc": 37.77,
+      "acc_std_seed": 0.0,
+      "acc_stderr": 0.85,
+      "acc_norm": 37.77,
+      "acc_norm_std_seed": 0.0,
+      "acc_norm_stderr": 0.85
+    },
+    "itabench_gsm8k_multichoice_it-it": {
+      "acc": 42.15,
+      "acc_std_seed": 0.0,
+      "acc_stderr": 1.36,
+      "acc_norm": 42.15,
+      "acc_norm_std_seed": 0.0,
+      "acc_norm_stderr": 1.36
+    },
+    "itabench_hellaswag_it-it": {
+      "acc": 27.62,
+      "acc_std_seed": 0.0,
+      "acc_stderr": 0.45,
+      "acc_norm": 27.83,
+      "acc_norm_std_seed": 0.0,
+      "acc_norm_stderr": 0.45
+    },
+    "itabench_truthful_qa_mc1_it-it": {
+      "acc": 27.53,
+      "acc_std_seed": 0.0,
+      "acc_stderr": 1.59
+    }
+  },
+  "per_seed": {
+    "0": {
+      "itabench_arc_challenge_it-it": {
+        "acc": 21.02,
+        "acc_stderr": 1.21,
+        "acc_norm": 26.33,
+        "acc_norm_stderr": 1.31
+      },
+      "itabench_boolq_with_passages_it-it": {
+        "acc": 37.77,
+        "acc_stderr": 0.85,
+        "acc_norm": 37.77,
+        "acc_norm_stderr": 0.85
+      },
+      "itabench_gsm8k_multichoice_it-it": {
+        "acc": 42.15,
+        "acc_stderr": 1.36,
+        "acc_norm": 42.15,
+        "acc_norm_stderr": 1.36
+      },
+      "itabench_hellaswag_it-it": {
+        "acc": 27.62,
+        "acc_stderr": 0.45,
+        "acc_norm": 27.83,
+        "acc_norm_stderr": 0.45
+      },
+      "itabench_truthful_qa_mc1_it-it": {
+        "acc": 27.53,
+        "acc_stderr": 1.59
+      }
+    }
+  },
+  "seconds": 143,
+  "lm_eval_version": "0.4.8"
+}

@@ -1,0 +1,11 @@
+task,series,score
+BoolQ,chance,50.0
+BoolQ,always answer 'Sì' (no model),62.23
+TruthfulQA mc1,"chance, correct target",22.62
+TruthfulQA mc1,"chance, official target",45.24
+GSM8K-MC,chance,20.46
+GSM8K-MC,pick the median number (no model),89.46
+TruthfulQA mc1,"Minerva-350M, official protocol",60.23
+TruthfulQA mc1,"Minerva-350M, shuffled protocol",30.81
+GSM8K-MC,Minerva-350M,47.92
+GSM8K-MC,"Minerva-350M, question removed",42.15

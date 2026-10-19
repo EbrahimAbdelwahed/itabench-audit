@@ -1,0 +1,126 @@
+{
+  "itabench_arc_challenge_it-it": {
+    "n": 1132,
+    "n_options": {
+      "3": 2,
+      "4": 1127,
+      "5": 3
+    },
+    "chance": 25.0,
+    "always_same_position": 26.68,
+    "gold_position": {
+      "0": 253,
+      "1": 302,
+      "2": 300,
+      "3": 277
+    }
+  },
+  "itabench_hellaswag_it-it": {
+    "n": 9998,
+    "n_options": {
+      "4": 9998
+    },
+    "chance": 25.0,
+    "always_same_position": 25.73,
+    "gold_position": {
+      "0": 2508,
+      "1": 2470,
+      "2": 2572,
+      "3": 2448
+    }
+  },
+  "itabench_boolq_with_passages_it-it": {
+    "n": 3259,
+    "n_options": {
+      "2": 3259
+    },
+    "chance": 50.0,
+    "always_same_position": 62.23,
+    "gold_position": {
+      "0": 2028,
+      "1": 1231
+    }
+  },
+  "itabench_truthful_qa_mc1_it-it": {
+    "n": 792,
+    "n_options": {
+      "2": 43,
+      "3": 88,
+      "4": 207,
+      "5": 188,
+      "6": 131,
+      "7": 63,
+      "8": 35,
+      "9": 17,
+      "10": 9,
+      "11": 7,
+      "12": 3,
+      "13": 1
+    },
+    "chance": 22.62,
+    "always_same_position": 100.0,
+    "gold_position": {
+      "0": 792
+    },
+    "chance_official_scoring": 45.24
+  },
+  "itabench_gsm8k_multichoice_it-it": {
+    "n": 1319,
+    "n_options": {
+      "1": 2,
+      "3": 20,
+      "4": 35,
+      "5": 1262
+    },
+    "chance": 20.46,
+    "always_same_position": 100.0,
+    "gold_position": {
+      "0": 1319
+    },
+    "median_number_heuristic": 89.46,
+    "distractor_offsets_top": [
+      {
+        "offsets_from_gold": [
+          -2.0,
+          -1.0,
+          1.0,
+          2.0
+        ],
+        "questions": 1180
+      },
+      {
+        "offsets_from_gold": [
+          1.0,
+          2.0,
+          3.0,
+          4.0
+        ],
+        "questions": 54
+      },
+      {
+        "offsets_from_gold": [
+          -2.0,
+          -1.0,
+          1.0
+        ],
+        "questions": 35
+      },
+      {
+        "offsets_from_gold": [
+          -1.0,
+          1.0,
+          2.0,
+          3.0
+        ],
+        "questions": 28
+      },
+      {
+        "offsets_from_gold": [
+          -2.0,
+          -1.0
+        ],
+        "questions": 20
+      }
+    ]
+  }
+}
